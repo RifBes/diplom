@@ -1,0 +1,27 @@
+.search_filter{
+	
+}
+
+.search_filter select{
+	margin-bottom: 15px;
+	border-radius: 5px;
+	width: 25%;
+}
+
+.selcls_thema{
+	outline: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.btn_apply{
+	border-radius: 5px;
+	padding: 3px 3px;
+	margin-top: 5px;
+}
+
+.next_theme{
+	margin-top: 15px;
+	display: flex;
+	justify-content: right;
+}

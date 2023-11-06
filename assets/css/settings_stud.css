@@ -1,0 +1,36 @@
+.settings_add_stud{
+	width: 540px;
+	background: white;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 30px;
+	border: 2px solid #2078c5;
+	border-radius: 25px;
+	box-shadow: 2px 5px 20px rgba(199, 199, 199, 0.5);
+}
+
+.intro_settings_stud{
+	font-family: 'Montserrat';
+	position: relative;
+	margin-right: 20px;
+	margin-left: 20px;
+ 	border-radius: 10px;
+  	margin-top: 100px;
+  	width: auto;
+  	height: auto;
+  	background: white;
+  	padding: 20px 20px;
+}
+
+.settings_profile_stud{
+	width: 540px;
+	background: white;
+	height: 550px;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 30px;
+	border: 2px solid #2078c5;
+	border-radius: 25px;
+	box-shadow: 2px 5px 20px rgba(199, 199, 199, 0.5);
+}

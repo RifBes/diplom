@@ -1,0 +1,167 @@
+.intro .info_users {
+	margin-left: 20px;
+	padding: 15px;
+	width: fit-content;
+	background: #91C7F8;
+	border: 3px solid #4F84B4;
+	border-radius: 25px;
+	margin-bottom: 25px;
+}
+
+.info_users p{
+	text-align: left;
+}
+
+.select_year{
+    border-radius: 10px;
+    width: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.edit_btn{
+    margin: auto;
+    float: right;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: solid #145B9C;
+    background: #91C7F8;
+    transition: color .2s linear;
+}
+
+.edit_btn:hover{
+    border: solid #174167;
+    background: #2F6BA1;
+    color: white;
+}
+
+.pick_year_thema{
+    margin-top: 10px;
+}
+
+.listOfSmth_thm p{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.listOfSmth_thm table{
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid #2078c5;
+}
+
+.listOfSmth_thm table thead{
+    text-align: center;
+    background: #3c9cf0;
+    color: white;
+}
+
+.listOfSmth_thm td, th{
+    border: 1px solid #2078c5;
+    text-align: left;
+}
+
+
+.publish_info{
+    width: 50%;
+}
+
+.publish_info table{
+    border-collapse: ;
+    border: 2px solid #2078c5;
+}
+
+.publish_info table thead{
+    text-align: center;
+    border: 2px solid #2078c5;
+    background: #3c9cf0;
+    color: white;
+}
+
+.publish_info td, th{
+    border: 1px solid #2078c5;
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    .publish_info table{
+        width: auto;
+    }
+    .publish_info table thead{
+        display: none;
+    }
+    .publish_info table tr{
+        display: block;
+        margin-bottom: 1rem;
+        border-top: 5px solid #2078c5;
+        border-bottom: 5px solid #2078c5;
+    }
+    .publish_info table th{
+        display: block;
+        text-align: left;
+    }
+    .publish_info table td{
+        display: block;
+        text-align: right;
+    }
+    .publish_info table td::before{
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+}
+
+.student_work{
+
+}
+
+.student_work table{
+    border-collapse: ;
+    border: 2px solid #2078c5;
+    width: 50%;
+}
+
+.student_work table thead{
+    text-align: center;
+    border: 2px solid #2078c5;
+    background: #3c9cf0;
+    color: white;
+}
+
+.student_work td, th{
+    border: 1px solid #2078c5;
+    text-align: left;
+}
+
+.student_work tr:hover td{
+    background: #e8edff;
+}
+
+@media screen and (max-width: 800px) {
+    .student_work table{
+        width: auto;
+    }
+    .student_work table thead{
+        display: none;
+    }
+    .student_work table tr{
+        display: block;
+        margin-bottom: 1rem;
+        border-top: 5px solid #2078c5;
+        border-bottom: 5px solid #2078c5;
+    }
+    .student_work table th{
+        display: block;
+        text-align: left;
+    }
+    .student_work table td{
+        display: block;
+        text-align: right;
+    }
+    .student_work table td::before{
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+}

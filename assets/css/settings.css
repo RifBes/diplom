@@ -1,0 +1,93 @@
+.intro_settings{
+	font-family: 'Montserrat';
+	position: relative;
+	margin-right: 20px;
+	margin-left: 20px;
+ 	border-radius: 10px;
+  	margin-top: 100px;
+  	width: auto;
+  	height: auto;
+  	background: white;
+  	padding: 20px 20px;
+ }
+
+.settings_profile{
+	display: inline-block;
+	width: 540px;
+	background: white;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+	margin-left: 100px;
+	margin-right: 70px;
+	padding-top: 30px;
+	border: 2px solid #2078c5;
+	border-radius: 25px;
+	box-shadow: 2px 5px 20px rgba(199, 199, 199, 0.5);
+}
+
+.settings_profile_thema{
+	margin-left: 110px;
+	display: inline-block;
+	width: 540px;
+	background: white;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 3%;
+	padding-top: 30px;
+	border: 2px solid #2078c5;
+	border-radius: 25px;
+	box-shadow: 2px 5px 20px rgba(199, 199, 199, 0.5);
+}
+
+.settings_box{
+	width: 60%;
+	margin-left: 20%;
+}
+
+.settings_box textarea{
+	border: 2px solid black;
+	resize: none;
+	border-radius: 5px;
+}
+
+.settings_box select{
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.settings_box input{
+	display: block;
+	font-family: 'Arial';
+	width: 100%;
+	padding: 7px 0;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.settings_box small{
+	font-size: 14px;
+	color: grey;
+}
+
+.settings_box h4{
+	margin-top: 10px;
+}
+
+.btn_save{
+	margin-top: 20px;
+	margin-bottom: 20px;
+    background: #0e528e;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 5px;
+    border:  none;
+}
+
+.btn_save:hover{
+	background: #0E518E;
+}
+
+.slct_theme{
+	width: 290px;
+}

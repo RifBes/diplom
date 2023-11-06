@@ -1,0 +1,105 @@
+.nav {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  background: #fff;
+  align-items: center;
+  height: auto;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.1);
+    margin-bottom: 50px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.nav .btnLogin-popup{
+   position: absolute;
+    right: 10px;
+    width: 130px;
+    height: 29px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    background: transparent;
+    transition: .5s;
+}
+
+.nav .btnLogin-popup:hover{
+    background: #0e528e;
+    color: #fff;
+    border: 2px solid #2078c5;
+}
+
+.download_btn{
+    background: #3c9cf0;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: solid #2078c5;
+    border-radius: 15px;
+}
+
+.download_btn:hover{
+    background: #2078c5;
+    border: solid #3c9cf0;
+}
+
+.listOfSmth p{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.listOfSmth table{
+    width: auto;
+    border-collapse: collapse;
+    border: 2px solid #2078c5;
+}
+
+.listOfSmth table thead{
+    text-align: center;
+    background: #3c9cf0;
+    color: white;
+}
+
+.listOfSmth td, th{
+    border: 1px solid #2078c5;
+    text-align: left;
+}
+
+.listOfSmth tr:hover td{
+    background: #e8edff;
+}
+
+@media screen and (max-width: 800px) {
+    .listOfSmth table thead{
+        display: none;
+    }
+    .listOfSmth table tr{
+        display: block;
+        margin-bottom: 1rem;
+        border-top: 5px solid #2078c5;
+        border-bottom: 5px solid #2078c5;
+    }
+    .listOfSmth table th{
+        display: block;
+        text-align: left;
+    }
+    .listOfSmth table td{
+        display: block;
+        text-align: right;
+    }
+    .listOfSmth table td::before{
+        content: attr(aria-label);
+        float: left;
+        font-weight: bold;
+    }
+}
